@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: System-V01DS
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: TOKEN
+        sync: false
